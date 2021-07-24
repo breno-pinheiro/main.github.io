@@ -13,6 +13,7 @@ body {
 .profile {
     text-align: center;
     margin-bottom: 40px;
+    margin-top: 50px;
 }
 
 .foto-principal {
@@ -53,10 +54,17 @@ h2 {
     margin-right: 15px;
 }
 
-.footer {
+footer {
     background-color: black;
     color: white;
     text-align: center;
     margin-top: 40px;
     padding: 10px 0;
+    width: auto;
+}
+
+@media screen and (max-width: 800px){
+    footer, .profile, body, .container{
+        width: auto;
+    }
 }
